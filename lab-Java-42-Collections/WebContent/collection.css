@@ -1,0 +1,118 @@
+body {
+	font: 'Times New Roman', Times, serif;
+	text-align: center;
+	color: red;
+	font-size: 110%;
+	font-display: center;
+	background-image: url("427943.jpg");
+}
+
+form {
+	border: 20px solid #accc1fd3;
+	padding: 0px 0px;
+	display: inline-block;
+	color: rgb(40, 149, 177);
+	width: 50%;
+	height: 100%;
+	border-radius: 10%;
+	font-style: bold;
+}
+
+input[type=text] {
+	width: 50%;
+	padding: 6px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 5px solid rgb(14, 12, 13);
+	box-sizing: border-box;
+	border-radius: 7%;
+	position: static;
+	color: rgb(88, 84, 84);
+}
+
+input[type=submit] {
+	background-color: violet;
+	border: white;
+	color: white;
+	font-size: 60%;
+	font-weight: bold;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 60% -webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.options {
+	padding: 5px;
+	background-color: grey;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 75%;
+	color: rgb(2, 0, 10);
+	font-weight: bold;
+	display: inherit;
+	border-radius: 15%;
+	margin: left;
+	width: 100%
+}
+
+button {
+	background-color: rgb(111, 204, 58);
+	color: rgb(10, 10, 10);
+	padding: 10px 20px;
+	margin: 30px 30px;
+	border: 3px solid white;
+	box-sizing: border-box;
+	border-radius: 7%;
+	cursor: pointer;
+	width: 30%;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 50%;
+	font-weight: bold;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.form-group {
+	padding: 100px;
+	background-color: rgb(51, 112, 161);
+}
+
+.text {
+	padding: 20px;
+	background-color: rgb(51, 112, 161);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 120%;
+	color: rgb(2, 0, 10);
+	font-weight: bold;
+}
+
+.form-text {
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60%;
+	font-stretch: semi-expanded;
+}
+
+.form-list {
+	padding: 20px;
+	background-color: rgb(51, 112, 161);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 70%;
+	color: rgb(75, 2, 2);
+	font-weight: bold;
+}
+
+.main {
+	width: calc(33.3333% - 20px);
+	height: 100%;
+	padding: 20px 30px;
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, .7)
+}
